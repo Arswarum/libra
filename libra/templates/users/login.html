@@ -68,8 +68,10 @@
 		}
 
 		#messages{
-			background-color: grey;
+
 			color: #fff;
+			text-align: center;
+			text-shadow: 2px 2px 8px gray;
 			padding: 10px;
 			margin-top: 10px;
 		}
@@ -112,7 +114,7 @@
                     <p id="messages">{{ message }}</p>
                 {% endfor %}
 
-				<div class="mt-4">
+				<div class="mt-2">
 					<div class="d-flex justify-content-center links">
 						<span class="form-title">Don't have an account? </span><a href="{% url 'register' %}" class="ml-2">Sign Up</a>
 					</div>
